@@ -1,0 +1,13 @@
+# Mengabaikan dataset gambar dan video agar tidak membuat GitHub penuh
+data/raw/
+data/processed/
+data/*.mp4
+data/hasil_deteksi_ai/
+
+# Mengabaikan file model AI dan folder log bawaan YOLO
+*.pt
+runs/
+
+# Mengabaikan file sistem Python
+__pycache__/
+.ipynb_checkpoints/
